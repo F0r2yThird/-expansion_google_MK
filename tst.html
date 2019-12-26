@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+	
+
+		<div id="preferences" class="wrap clearfix">
+			<div class="title">
+				MEDIAKVANT.RU
+			</div>
+			<div class="divider">
+			</div>
+			<div class="row">
+				<label for="loginField">Логин</label>
+				<input id="loginField" type="text" name="userUID" />
+			</div>
+			<div class="pass">
+				<label for="passwordField">Пароль</label>
+				<input id="passwordField" type="password" name="userPassword" placeholder="Введите пароль" />	
+				<a href="#" class="password-control" onclick="return show_hide_password(this);"></a>							
+			</div>
+			<div class="row">
+				<input id="btnSave" onclick="singup()" type="submit" value="Войти" />
+			</div>
+		</div>
+
+
+
+	<div id="information" class="wrap clearfix">
+
+
+<div id="secret" class="sekrets">
+
+			<div class="title">
+				MEDIAKVANT.RU
+			</div>
+			<div class="divider">
+			</div>
+			<div class="row">
+				<label for="userName">Пользователь</label>
+				<span id="userName">Иванов Петруха</span>
+			</div>
+			<div class="row">
+				<label for="agrmNumber">Лицевой счет</label>
+				<span id="agrmNumber">01-05432</span>
+			</div>
+			<div class="row">
+				<label for="balance">Баланс Л/Счета</label>
+				<span id="balance">118,22</span>
+			</div>
+			<div class="row">
+				<label for="tariffName">Тарифный план</label>
+				<span id="tariffName">Тариф</span>
+			</div>
+			<div class="row">
+				<label for="daysToBlock">Дней до отключения</label>
+				<span id="daysToBlock">Осталось</span>
+			</div>
+
+</div>
+
+
+	</div>
+
+     </body>
+  <script src="popup.js"></script>
+  <script src="background.js"></script>
+</html>
+
+

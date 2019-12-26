@@ -1,0 +1,29 @@
+
+                      {
+                        "manifest_version": 2,
+                        "name": "MediaKvant",
+                        "version": "0.1",
+
+                        "icons": {
+                          "128": "logo.png"
+                        },
+                        "content_scripts": [
+                          {
+                            "matches": [ "*://*/*" ],
+                            "js": [ "popup.js" ]
+                          }
+                        ],
+                        "background": {
+                          "scripts": ["background.js"]
+                        },
+                        "permissions": ["https://billing.mediakvant.ru/*", "storage"],
+                            
+
+
+                            "browser_action": {
+                              "default_title": "MediaKvant",
+                              "default_icon": "logo.png",
+                              "default_popup": "tst.html"
+                          }
+
+                      }

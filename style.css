@@ -1,0 +1,109 @@
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.9em;
+	color: #555;
+}
+
+input[type=text],
+input[type=password] {
+	width:250px;
+	border: 1px solid #eeeeee
+}
+
+
+
+.wrap {
+	background-color: #fafafa;
+	width:	400px;
+	border:1px solid #E9E9E9;
+	padding: 10px;
+	owerflow: auto;
+}
+
+.row {
+	clear: both;
+	padding: 8px;
+	text-align: right;
+}
+
+.row label {
+	float: left;
+}
+
+.row p {
+	font-size: 0.8em;
+	text-align: center;
+	padding: 6px;
+}
+
+
+.pass {
+	clear: both;
+	padding: 8px;
+	text-align: right;
+}
+
+.pass label {
+	float: left;
+}
+
+.pass p {
+	font-size: 0.8em;
+	text-align: center;
+	padding: 6px;
+}
+
+.password-control {
+	position: absolute;
+	top: 89px;
+	right: 35px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(https://snipp.ru/demo/495/view.svg) 0 0 no-repeat;
+}
+.password-control.view {
+	background: url(https://snipp.ru/demo/495/no-view.svg) 0 0 no-repeat;
+}
+
+
+
+/*_____________________
+*/
+.title {
+	text-align: right;
+	padding-right: 6px;
+	
+	color: #555;
+}
+
+.divider {
+	background: linear-gradient(45deg, #ccc, #eee);
+	height: 3px;
+	margin-bottom: 6px;
+}
+
+.clearfix { 
+	display: block; 
+}
+
+.clearfix:after {
+	content: ""; 
+	display: block; 
+	clear: both; 
+	visibility: hidden; 
+	line-height: 0; 
+	height: 0; 
+	margin: 0; 
+	padding: 0; 
+}
+
+.sekrets {                     /*скрытие инфы*/
+      /*visibility: hidden;*/
+	display: block;
+}
+
+
+		/*show_hide_password*/
+
