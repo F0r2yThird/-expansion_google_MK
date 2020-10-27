@@ -1,3 +1,6 @@
+hello/root
+
+
 function qryData() {
 
   var xhr = new XMLHttpRequest ()                                   // создаем объект запроса
